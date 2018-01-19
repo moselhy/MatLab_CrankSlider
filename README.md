@@ -2,6 +2,5 @@
 ## Original reference: YouTube by [CodingOwl](https://www.youtube.com/watch?v=7IDAYfAb0k4)
 
 ### Requirements:
-- MATLAB
-- Image Processing Toolbox (to use the viscircles function)
-
+- [MATLAB](https://www.mathworks.com/products/matlab.html)
+- [Image Processing Toolbox](https://www.mathworks.com/products/image.html) (to use the viscircles function)

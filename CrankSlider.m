@@ -25,14 +25,16 @@ for t=1:500 % t is the time in tenths of seconds
         slider = line([P2(1) P3(1)], [P2(2) P3(2)]);
         % The point P2 trajectory
         P2_traj = viscircles([0 0],a,'LineStyle','--');
-        % The point P1 and P2
+        % The point P1, P2, and P3
         P1_circ = viscircles(P1,0.1);
         P2_circ = viscircles(P2,0.1);
-        % The interval time to update the plot
-        pause(0.001);
+        P3_circ = viscircles(P3, 0.1);
+        % The interval time to update the plot (the lower the slower)
+        pause(0.01);
         % Delete the previous line
         delete(crank);
         delete(P1_circ);
         delete(P2_circ);
         delete(slider);
+        delete(P3_circ);
 end
